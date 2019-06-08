@@ -142,7 +142,7 @@ export default class App extends React.Component {
                 source={require('./assets/arm.png')}
               />
             ),
-            title: 'Profile'
+            title: 'Training'
           }
         }
       }, {
@@ -152,7 +152,7 @@ export default class App extends React.Component {
 
     const NavigatorTab = createAppContainer(
       createSwitchNavigator({
-        welcome: { screen: WelcomeScreen },
+        //welcome: { screen: WelcomeScreen },
         main: { screen: MainTab }
       })
     );
